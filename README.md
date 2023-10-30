@@ -12,7 +12,7 @@ This repository contains implementations of various sorting algorithms in C++ to
   - [Authors](#authors)
 
 1. **Bubble Sort**: A simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
-
+a
 2. **Quick Sort**: A divide-and-conquer sorting algorithm that works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot.
 
 3. **Selection Sort**: A simple sorting algorithm that repeatedly selects the minimum element from the unsorted part of the array and moves it to the beginning of the sorted part.
@@ -23,10 +23,24 @@ This repository contains implementations of various sorting algorithms in C++ to
 
 ## Project Structure
 
-- [algorithm_prototypes.h](algorithm_prototypes.h): Header file containing function prototypes for the sorting algorithms.
-- [main.cpp](main.cpp): The main program that allows users to input sequences and see the results of sorting algorithms.
-- [SortingAlgorithms.cpp](SortingAlgorithms.cpp): Implementation of sorting algorithms (bubble, quick, selection, insertion, merge).
-- [SortingAlgorithms.h](SortingAlgorithms.h): Header file containing function definitions for sorting algorithms.
+- [algorithm_prototypes.h](headers/algorithm_prototypes.h): Header file containing function prototypes for the sorting algorithms.
+ 
+- [main.cpp](source/main.cpp): The main program that allows users to input sequences and see the results of sorting algorithms.
+  
+- [bubble_sort.cpp](source/bubble_sort.cpp): Implementation of the Bubble Sort algorithm.
+    A simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
+
+- [quick_sort.cpp](source/quick_sort.cpp): Implementation of the Quick Sort algorithm.
+    A divide-and-conquer sorting algorithm that works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot.
+
+- [selection_sort.cpp](source/selection_sort.cpp): Implementation of the Selection Sort algorithm.
+    A simple sorting algorithm that repeatedly selects the minimum element from the unsorted part of the array and moves it to the beginning of the sorted part.
+
+- [insertion_sort.cpp](source/insertion_sort.cpp): Implementation of the Insertion Sort algorithm.
+    A simple sorting algorithm that builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms.
+
+- [merge_sort.cpp](source/merge_sort.cpp): Implementation of the Merge Sort algorithm.
+    A divide-and-conquer sorting algorithm that divides the input array into two halves, sorts each half separately, and then merges the sorted halves back together.
 
 ## Usage
 
