@@ -53,9 +53,9 @@ a
 
 The repository is organized as follows:
 
-**main.cpp**: The main program that showcases sorting algorithms.
-**algorithm_prototypes.h**: Header file containing function prototypes for the sorting algorithms.
-**Algorithm-specific .cpp files**: Each sorting algorithm has its own .cpp file for easy reference.
+- **main.cpp**: The main program that showcases sorting algorithms.
+- **algorithm_prototypes.h**: Header file containing function prototypes for the sorting algorithms.
+- **Algorithm-specific .cpp files**: Each sorting algorithm has its own .cpp file for easy reference.
 
 ## Authors
 
